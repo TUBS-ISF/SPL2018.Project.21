@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="de.tubs.tudyka.interfaces.IOperation">
+		<class>Subtraction</class>
+	</interface>
+</plugins>

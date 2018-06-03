@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Calculator">
+            <description>
+Calculator for integers with different operations.
+</description>
+            <alt abstract="true" mandatory="true" name="Appearance">
+                <description>
+Appearance of the calculator. Only one apperance is selectable.
+</description>
+                <feature abstract="true" name="GUI">
+                    <description>
+Appearance with graphical user interface.
+</description>
+                </feature>
+                <feature name="Commandline">
+                    <description>
+Appearance in a terminal window (commandline).
+</description>
+                </feature>
+            </alt>
+            <or abstract="true" mandatory="true" name="Operations">
+                <description>
+Available operations on integers.
+</description>
+                <or abstract="true" name="Base">
+                    <description>
+Base operations for integers.
+</description>
+                    <feature name="Addition">
+                        <description>
+Calculates the sum of two integers.
+</description>
+                    </feature>
+                    <feature name="Subtraction">
+                        <description>
+Calculates the difference of two integers.
+</description>
+                    </feature>
+                    <feature name="Multiplication">
+                        <description>
+Calculates the product of two integers.
+</description>
+                    </feature>
+                    <feature name="Division">
+                        <description>
+Calculates the quotient of two integers.
+</description>
+                    </feature>
+                    <feature name="mod">
+                        <description>
+Calculates the rest of the division between two integers.
+</description>
+                    </feature>
+                </or>
+                <or abstract="true" name="Binary">
+                    <description>
+Binary operations for integers.
+</description>
+                    <feature abstract="true" name="AND">
+                        <description>
+Logical AND conjunction between two integers.
+</description>
+                    </feature>
+                    <feature abstract="true" name="OR">
+                        <description>
+Logical OR conjunction between two integers.
+</description>
+                    </feature>
+                    <feature abstract="true" name="XOR">
+                        <description>
+Logical XOR conjunction between two integers.
+</description>
+                    </feature>
+                    <feature abstract="true" name="NOT">
+                        <description>
+Logical NOT conjunction for one integer. Flips all bits of this integer.
+</description>
+                    </feature>
+                </or>
+                <or abstract="true" name="Extra">
+                    <description>
+Extra operations for integers or a sequence of integers.
+</description>
+                    <feature abstract="true" name="Sum">
+                        <description>
+Calculates the sum for a sequence of integers.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Product">
+                        <description>
+Calculates the product for a sequence of integers.
+</description>
+                    </feature>
+                    <feature abstract="true" name="DigitSum">
+                        <description>
+Calculates the digit-sum of an integer.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Exponentation">
+                        <description>
+Calculates the exponentation of a given base integer b, and an exponent n.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Root">
+                        <description>
+Calculates the root r for a given number x and a base n, so that r^n = x.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Logarithm">
+                        <description>
+Calculates the logartihm y for an integer x and a base b, so that log(x) = y for base b.
+</description>
+                    </feature>
+                </or>
+            </or>
+            <or abstract="true" mandatory="true" name="Representation">
+                <description>
+Available representation of intergers. Multiple representations are selectable.
+</description>
+                <feature name="Decimal">
+                    <description>
+Integer as decimal number.
+</description>
+                </feature>
+                <feature name="BinaryCoded">
+                    <description>
+Integer as binary-coded number. Usage with prefix "0b".
+</description>
+                </feature>
+                <feature name="Hexadecimal">
+                    <description>
+Integer as hexidecimal number. Usage with prefix "0x".
+</description>
+                </feature>
+            </or>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

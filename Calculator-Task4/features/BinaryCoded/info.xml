@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="de.tubs.tudyka.interfaces.INumDecoder">
+		<class>BinaryCoded</class>
+	</interface>
+</plugins>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/Addition.jar"/>
+	<classpathentry kind="lib" path="lib/BinaryCoded.jar"/>
+	<classpathentry kind="lib" path="lib/Commandline.jar"/>
+	<classpathentry kind="lib" path="lib/Decimal.jar"/>
+	<classpathentry kind="lib" path="lib/Division.jar"/>
+	<classpathentry kind="lib" path="lib/Hexadecimal.jar"/>
+	<classpathentry kind="lib" path="lib/Multiplication.jar"/>
+	<classpathentry kind="lib" path="lib/Subtraction.jar"/>
+	<classpathentry kind="lib" path="lib/mod.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

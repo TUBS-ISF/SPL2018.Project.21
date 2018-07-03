@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Calculator"/>
+    <feature automatic="selected" name="Appearance"/>
+    <feature automatic="unselected" name="GUI"/>
+    <feature manual="selected" name="Commandline"/>
+    <feature automatic="selected" name="Operations"/>
+    <feature automatic="selected" name="Base"/>
+    <feature manual="selected" name="Addition"/>
+    <feature manual="selected" name="Subtraction"/>
+    <feature manual="selected" name="Multiplication"/>
+    <feature manual="selected" name="Division"/>
+    <feature manual="selected" name="Modulo"/>
+    <feature automatic="selected" manual="selected" name="Binary"/>
+    <feature manual="selected" name="AND"/>
+    <feature manual="selected" name="OR"/>
+    <feature automatic="selected" name="Representation"/>
+    <feature manual="selected" name="Decimal"/>
+    <feature manual="selected" name="BinaryCoded"/>
+    <feature manual="selected" name="Hexadecimal"/>
+</configuration>

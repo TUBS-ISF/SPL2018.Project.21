@@ -1,4 +1,4 @@
-package de.tubs.tudyka;
+
 
 /**
  * Main class
@@ -22,7 +22,9 @@ public class Main {
 		System.out.println("operator	" + operator);
 		
 		result = calculator.calculate(num0, num1, operator);
-		System.out.println("Calculated result: " + result);
+		System.out.println("Calculated result:	" + result);
+//		System.out.println("Binary:			0b" + Integer.toBinaryString(result));
+//		System.out.println("Hexadecimal:		0x" + Integer.toHexString(result).toUpperCase());
 
 		calculator.close();
 	}
